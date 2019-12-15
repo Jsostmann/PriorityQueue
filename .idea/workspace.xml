@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fac32f7-3849-48b0-a708-78905ed71509" name="Default Changelist" comment="" />
+    <list default="true" id="7fac32f7-3849-48b0-a708-78905ed71509" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/Ostmann/James/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ostmann/James/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ostmann/James/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ostmann/James/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ostmann/James/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ostmann/James/PriorityQueue.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Ostmann/James/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="225">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -23,20 +27,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Ostmann/James/Heap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="135">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="method#Heap#0;class#Heap#0" />
                 <element signature="method#getSize#0;class#Heap#0" />
                 <element signature="method#getTop#0;class#Heap#0" />
                 <element signature="method#push#0;class#Heap#0" />
                 <element signature="method#poll#0;class#Heap#0" />
+                <element signature="method#pop#0;class#Heap#0" />
                 <element signature="method#isEmpty#0;class#Heap#0" />
                 <element signature="method#toString#0;class#Heap#0" />
                 <element signature="method#hasLeftChild#0;class#Heap#0" />
                 <element signature="method#hasRightChild#0;class#Heap#0" />
                 <element signature="method#hasParent#0;class#Heap#0" />
-                <element signature="method#pop#0;class#Heap#0" />
                 <element signature="method#swap#0;class#Heap#0" />
                 <element signature="method#increment#0;class#Heap#0" />
               </folding>
@@ -47,11 +51,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Ostmann/James/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
                 <element signature="e#132#133#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
+                <element signature="method#add#0;class#PriorityQueue#0" />
+                <element signature="method#remove#0;class#PriorityQueue#0" />
               </folding>
             </state>
           </provider>
@@ -96,11 +102,11 @@
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/com/Ostmann/James/MyComparable.java" />
         <option value="$PROJECT_DIR$/src/com/Ostmann/James/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/Ostmann/James/PriorityQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/Ostmann/James/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/Ostmann/James/Heap.java" />
         <option value="$PROJECT_DIR$/src/com/Ostmann/James/MinHeap.java" />
         <option value="$PROJECT_DIR$/src/com/Ostmann/James/MaxHeap.java" />
+        <option value="$PROJECT_DIR$/src/com/Ostmann/James/Heap.java" />
+        <option value="$PROJECT_DIR$/src/com/Ostmann/James/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/Ostmann/James/Main.java" />
       </list>
     </option>
   </component>
@@ -146,7 +152,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575672595613" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576376352402" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -197,18 +203,18 @@
       <option name="presentableId" value="Default" />
       <updated>1575597524055</updated>
       <workItem from="1575597527351" duration="12126000" />
-      <workItem from="1576375318590" duration="667000" />
+      <workItem from="1576375318590" duration="1029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12793000" />
+    <option name="totallyTimeSpent" value="13155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -217,7 +223,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3267974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3267974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -292,17 +298,6 @@
     <entry file="file://$PROJECT_DIR$/src/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Ostmann/James/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Ostmann/James/MyComparable.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Ostmann/James/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Ostmann/James/MinHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -319,30 +314,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Ostmann/James/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="135">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="method#Heap#0;class#Heap#0" />
             <element signature="method#getSize#0;class#Heap#0" />
             <element signature="method#getTop#0;class#Heap#0" />
             <element signature="method#push#0;class#Heap#0" />
             <element signature="method#poll#0;class#Heap#0" />
+            <element signature="method#pop#0;class#Heap#0" />
             <element signature="method#isEmpty#0;class#Heap#0" />
             <element signature="method#toString#0;class#Heap#0" />
             <element signature="method#hasLeftChild#0;class#Heap#0" />
             <element signature="method#hasRightChild#0;class#Heap#0" />
             <element signature="method#hasParent#0;class#Heap#0" />
-            <element signature="method#pop#0;class#Heap#0" />
             <element signature="method#swap#0;class#Heap#0" />
             <element signature="method#increment#0;class#Heap#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Ostmann/James/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Ostmann/James/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="method#add#0;class#PriorityQueue#0" />
+            <element signature="method#remove#0;class#PriorityQueue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Ostmann/James/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>

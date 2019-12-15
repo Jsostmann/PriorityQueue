@@ -43,6 +43,15 @@ public abstract class Heap<T extends Comparable<T>> {
     }
     return null;
   }
+  void pop() {
+
+    if(!this.isEmpty()) {
+
+      heap[top] = heap[--size];
+      bubbleDown();
+
+    }
+  }
   public boolean isEmpty() {
 
     return getSize() == 0;
@@ -78,15 +87,7 @@ public abstract class Heap<T extends Comparable<T>> {
 
     return (current - 1) / 2 > -1;
   }
-  void pop() {
 
-    if(!this.isEmpty()) {
-
-      heap[top] = heap[--size];
-      bubbleDown();
-
-    }
-  }
 
   T swap(T obj1, T obj2) {
 
